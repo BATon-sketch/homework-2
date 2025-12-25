@@ -1,0 +1,42 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    border: 1px solid #000000;
+    border-bottom: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    color: #000000;
+}
+
+thead, th {
+    padding: 15px;
+    background: #f0f0f0;
+    font-weight: normal;
+}
+
+th, td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+tbody, td {
+    font-size: 20px;
+}
+
+.weekend {
+    color: red;
+}
